@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: HelloServer
+management:
+  info:
+    git:
+      mode: full

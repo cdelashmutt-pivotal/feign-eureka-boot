@@ -1,0 +1,12 @@
+---
+applications:
+- name: audit-client
+  buildpack: java_buildpack_offline
+  path: audit-client\build\libs\audit-client-0.0.1-SNAPSHOT.jar
+  services:
+  - myRegistry
+- name: audit-server
+  buildpack: java_buildpack_offline
+  path: audit-server\build\libs\audit-server-0.0.1-SNAPSHOT.jar
+  services:
+  - myRegistry

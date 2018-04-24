@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: HelloClient
+management:
+  info:
+    git:
+      mode: full
