@@ -1,7 +1,6 @@
 spring:
   application:
     name: HelloClient
-management:
-  info:
-    git:
-      mode: full
+security:
+  user:
+    role: ENDPOINT_ADMIN
